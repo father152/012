@@ -19,6 +19,7 @@ function House() {
           attic with a usable area, such a house has an advantage over an
           ordinary one-story house occupying the same plot of land.
         </p>
+
         <h3>House # 2</h3>
         <img src={house2} alt="House 2"></img>
         <p>
@@ -48,9 +49,11 @@ function House() {
         </p>
       </div>
 
+     <button>
       <Link to="/" className="back">
         Home
       </Link>
+     </button>
     </div>
   );
 }

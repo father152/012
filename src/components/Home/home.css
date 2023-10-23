@@ -8,10 +8,22 @@
 width: 20%;
 background-color: rgb(221, 224, 224);
 }
+/* =================================================== */
 .centralpart{
 width: 60%;
 background-color: bisque;
+padding: 15px;
 }
+.centralpart h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+ }
+ .centralpart p{
+    width: 60%;
+    text-align: justify;
+ }
+/* ======================================================== */
 .rigthside{
 width: 20%;
 background-color: rgb(221, 224, 224);

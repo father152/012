@@ -4,9 +4,11 @@ import house1 from "./Img/1.png";
 import house2 from "./Img/2.png";
 import house3 from "./Img/3.png";
 import house4 from "./Img/4.png";
+import "./house.css"
 
 function House() {
   return (
+    <>
     <div className="house">
       <h2>Houses</h2>
       <div className="fotohouse">
@@ -49,12 +51,14 @@ function House() {
         </p>
       </div>
 
-     <button>
+    
+    </div>
+     <button classNAme='button-house'>
       <Link to="/" className="back">
         Home
       </Link>
      </button>
-    </div>
+     </>
   );
 }
 export { House };

@@ -1,35 +1,71 @@
 .house {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .house h2 {
-text-align: center;
-font-size: 50px;
-margin: 0;
+  text-align: center;
+  font-size: 70px;
+  margin: 0;
 }
 .house h3 {
-  font-size: 30px; 
-  color: rgb(11, 11, 78); 
+  font-size: 30px;
+  color: rgb(11, 11, 78);
+  text-align: center;
 }
-.house p{
-    display: flex;
-    float: right;
+.house p {
+  display: flex;
+  float: right;
 }
 button {
-    width: 50px;
-    height: 40px;
-    margin-left: 200px;
-    margin-bottom: 20px;
-    margin-top: 20px;                                                                                                                                                                                                           
-    background-color: rgb(241, 207, 10);
-    border-radius: 20px;
-    cursor: pointer;
+  width: 100px;
+  height: 40px;
+  margin-left: 200px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: rgb(241, 207, 10);
+  border-radius: 20px;
+  cursor: pointer;
 }
-button a{
-    font-size: 20px;
-    text-decoration: none;
-    color: rgb(36, 27, 7);
-    font-weight: bold;
+button a {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(36, 27, 7);
+  font-weight: bold;
+}
+.fotohouse {
+  width: 100%;
+}
+.fotohouse img {
+  text-align: center;
+  margin: 0 auto;
+}
+.one {
+  display: flex;
+}
+
+.one p {
+  padding: 0 20px;
+  font-size: 20px;
+  text-align: justify;
+  margin: 0;
+}
+.one img {
+  height: 500px;
+}
+.one .arrow {
+  height: 50px;
+  transform: rotate(180deg);
+  margin-top: 450px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.two {
+  display: flex;
+}
+.two p {
+  padding: 0 20px;
+  font-size: 20px;
+  text-align: justify;
+  margin: 0;
 }

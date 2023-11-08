@@ -9,6 +9,7 @@ import {Portfolio} from './components/Header/Portfolio/Portfolio.jsx'
 import {Contact} from './components/Header/Contact/Contact.jsx'
 import { House } from "./components/Home/Leftside/House.jsx";
 import { Flat } from "./components/Home/Leftside/Flat.jsx";
+import { More_foto_house } from "./components/Home/Leftside/More_foto_house.jsx";
 
 
 
@@ -30,7 +31,7 @@ function App() {
         <Route path="/" element={<Layout />}>
             <Route path="house" element={<House />} />
             <Route path="flat" element={<Flat />} />
-            
+            <Route path="more_foto_house" element={<More_foto_house />} />
           </Route>
 
           

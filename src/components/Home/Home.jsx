@@ -14,24 +14,24 @@ function Home() {
             <Link to="/flat">FLAT</Link>
           </li>
           <li>
-            <Link to="/House">HOUSE</Link>
+            <Link to="/house">HOUSE</Link>
           </li>
           <li>
-            <Link to="/House">HOUSE</Link>
+            <Link to="/house">HOUSE</Link>
           </li>
         </ul>
         <ul className="second_title">
           <li>
-            <Link to="/House">HOUSE</Link>
+            <Link to="/house">HOUSE</Link>
           </li>
           <li>
-            <Link to="/House">HOUSE</Link>
+            <Link to="/house">HOUSE</Link>
           </li>
           <li>
-            <Link to="/House">HOUSE</Link>
+            <Link to="/house">HOUSE</Link>
           </li>
           <li>
-            <Link to="/House">HOUSE</Link>
+            <Link to="/house">HOUSE</Link>
           </li>
         </ul>
       </div>

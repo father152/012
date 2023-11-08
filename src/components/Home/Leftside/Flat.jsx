@@ -3,7 +3,7 @@ import { Link } from 'react'
 
 function Flat() {
   return (
-    <div>
+    <div className='flat'>
     
     
     <p>Flat</p>

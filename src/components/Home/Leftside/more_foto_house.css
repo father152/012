@@ -1,3 +1,22 @@
 .more-foto-house {
-    wi
+ width: 80%;
+margin: 0 auto;
+}
+.morefoto1, .morefoto2 {
+  display: flex;
+ justify-content: space-around;
+}
+.morefoto1 img, .morefoto2 img {
+  width: 45%;
+}
+.more-foto-house p {
+  font-size: 40px;
+  text-align: center;
+}
+.back .arrow {
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 15px;
+  padding: 0 10px;
+  cursor: pointer;
 }

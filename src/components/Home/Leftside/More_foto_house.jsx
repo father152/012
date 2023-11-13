@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './more_foto_house.css'
 import more1 from "./Img/11.jpg";
 import more2 from "./Img/22.jpg";
 import more3 from "./Img/33.jpg";
